@@ -1,33 +1,35 @@
-import { CatmullRomLine, CubicBezierLine, Line, MeshReflectorMaterial, OrbitControls, Outlines, QuadraticBezierLine, RoundedBox, Sparkles, Stage, Stars, TransformControls } from '@react-three/drei'
-import React, {useEffect, useRef} from 'react'
-import { FakeGlowMaterial } from './components/FakeGlowMaterial'
-import { AdditiveBlending, Color, DoubleSide } from "three";
-import { useFrame } from '@react-three/fiber';
+// import { CatmullRomLine, CubicBezierLine, Line, MeshReflectorMaterial, OrbitControls, Outlines, QuadraticBezierLine, RoundedBox, Sparkles, Stage, Stars, TransformControls } from '@react-three/drei'
+import { OrbitControls, Stars } from '@react-three/drei'
+// import { useRef} from 'react'
+// import { FakeGlowMaterial } from './components/FakeGlowMaterial'
+// import { AdditiveBlending, Color, DoubleSide } from "three";
+import { DoubleSide } from "three";
+// import { useFrame } from '@react-three/fiber';
 
 const Solar = () => {
 
-    const cubeRef:any = useRef(null)
-    const mercuryRef = useRef();
+    // const cubeRef:any = useRef(null)
+    // const mercuryRef = useRef();
 
-    useFrame((state, delta) => {
+    // useFrame((state, delta) => {
         
-        const time = state.clock.elapsedTime
+    //     const time = state.clock.elapsedTime
         
 
-        //mercuryRef.current.position.z = Math.cos(time)
-        //mercuryRef.current.position.y = Math.sin(time)
+    //     //mercuryRef.current.position.z = Math.cos(time)
+    //     //mercuryRef.current.position.y = Math.sin(time)
 
-        //mercuryRef.current.position.x = Math.sin(time) + 1
-        //mercuryRef.current.rotation.y += 0.01
+    //     //mercuryRef.current.position.x = Math.sin(time) + 1
+    //     //mercuryRef.current.rotation.y += 0.01
 
-        // mercuryRef.current.position.x += delta * 0.2
-        // mercuryRef.current.position.y += delta * 0.2
-        // mercuryRef.current.position.z += delta * 0.2
+    //     // mercuryRef.current.position.x += delta * 0.2
+    //     // mercuryRef.current.position.y += delta * 0.2
+    //     // mercuryRef.current.position.z += delta * 0.2
 
-        // //mercuryRef.current.rotation.x += delta * 0.2
-        // mercuryRef.current.rotation.y += Math.PI * 0.5
-        // sphereMesh.rotation.x = -0.15 * elapsedTime
-    })
+    //     // //mercuryRef.current.rotation.x += delta * 0.2
+    //     // mercuryRef.current.rotation.y += Math.PI * 0.5
+    //     // sphereMesh.rotation.x = -0.15 * elapsedTime
+    // })
 
     return (
         <>
