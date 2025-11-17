@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
 import { Canvas } from '@react-three/fiber'
 import Solar from './Solar'
